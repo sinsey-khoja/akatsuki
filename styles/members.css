@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap");
+@import url("http://fonts.cdnfonts.com/css/night-in-tokyo");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  background: #282828;
+  min-height: 100vh;
+}
+
+header {
+  padding: 0 15px;
+}
+
+header .header-content {
+  padding-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: auto;
+  max-width: 1440px;
+}
+
+@media (max-width: 880px) {
+  header .header-content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+header .header-content .header-img img {
+  width: 580px;
+}
+
+@media (max-width: 880px) {
+  header .header-content .header-img img {
+    width: 300px;
+  }
+}
+
+header .header-content .header-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 24px;
+  max-width: 680px;
+}
+
+header .header-content .header-info h2 {
+  text-align: right;
+  font-size: 4em;
+  color: #ba131a;
+  font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+@media (max-width: 640px) {
+  header .header-content .header-info h2 {
+    font-size: 2.4em;
+  }
+}
+
+header .header-content .header-info p {
+  text-align: justify;
+  font-size: 1.4em;
+  line-height: 34px;
+  letter-spacing: 2px;
+  color: white;
+  font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+@media (max-width: 640px) {
+  header .header-content .header-info p {
+    font-size: 1em;
+  }
+}
+
+main {
+  margin: 60px auto;
+  max-width: 1680px;
+}
+
+main h1 {
+  color: #ba131a;
+  text-align: center;
+  font-size: 5em;
+  padding: 30px;
+  font-family: 'Kdam Thmor Pro', sans-serif;
+  border-top: 5px solid #000;
+  border-bottom: 5px solid #000;
+}
+
+@media (max-width: 680px) {
+  main h1 {
+    font-size: 2em;
+  }
+}
+
+main h2 {
+  color: #ba131a;
+  font-size: 3em;
+  padding: 30px;
+  font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+@media (max-width: 680px) {
+  main h2 {
+    font-size: 1.6em;
+  }
+}
+
+main p {
+  color: #fff;
+  font-size: 1.3em;
+  padding-bottom: 23px;
+  font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+@media (max-width: 680px) {
+  main p {
+    font-size: 1em;
+  }
+}
+
+main img {
+  padding: 24px;
+  border: 2px solid #fff;
+  border-radius: 5%;
+  border-bottom-right-radius: 0%;
+}
+/*# sourceMappingURL=members.css.map */

@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap'), url('http://fonts.cdnfonts.com/css/night-in-tokyo');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+header {
+  background: url(../imgs/WallpaperDog-20495729.png) no-repeat center /cover;
+  min-height: 100vh;
+  @media (max-width:910px) {
+    background: #282828;
+  }
+
+  .header-info{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding-top: 120px;
+    max-width: 1440px;
+    margin: auto;
+    h2{
+      color: #fff;
+      font-size: 3em;
+      @media (max-width:910px) {
+        text-align: center;
+      }
+    }
+    p{
+      @media (max-width:910px) {
+        text-align: center;
+        max-width: max-content;
+      }
+      color: #fff;
+      padding-left: 10px;
+      line-height: 33px;
+      font-size: 1.4em;
+      max-width: 460px;
+      // font-family: 'Night in Tokyo', sans-serif;
+      font-family: 'Kdam Thmor Pro', sans-serif;
+    }
+  }
+}

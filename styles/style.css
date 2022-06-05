@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap");
+@import url("http://fonts.cdnfonts.com/css/night-in-tokyo");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+header {
+  background: url(../imgs/WallpaperDog-20495729.png) no-repeat center/cover;
+  min-height: 100vh;
+}
+
+@media (max-width: 910px) {
+  header {
+    background: #282828;
+  }
+}
+
+header .header-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 12px;
+  padding-top: 120px;
+  max-width: 1440px;
+  margin: auto;
+}
+
+header .header-info h2 {
+  color: #fff;
+  font-size: 3em;
+}
+
+@media (max-width: 910px) {
+  header .header-info h2 {
+    text-align: center;
+  }
+}
+
+header .header-info p {
+  color: #fff;
+  padding-left: 10px;
+  line-height: 33px;
+  font-size: 1.4em;
+  max-width: 460px;
+  font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+@media (max-width: 910px) {
+  header .header-info p {
+    text-align: center;
+    max-width: -webkit-max-content;
+    max-width: -moz-max-content;
+    max-width: max-content;
+  }
+}
+/*# sourceMappingURL=style.css.map */
